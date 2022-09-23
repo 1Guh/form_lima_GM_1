@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#container{
+    margin: 0 auto;
+   background-color:#f9f8f6; 
+   height: 800px;
+   width: 400px;
+
+}
+
+#barra_superior {
+    width: 400px;
+    height: 3px;
+    background-color: #FFBB12;
+    margin-bottom: 12px;
+}
+
+#fundo_inscreva {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(239,190,14, 1);
+    border-radius: 4px;
+    margin-left: 21px;
+    margin-top: 33px;
+}
+
+#inscreva {
+    font-family: 'Roboto', sans-serif;
+    color: #464237;
+    margin-left: 27px;
+    margin-top: -32px;
+    font-size: 36px;
+} 
+
+#barra_1{
+    margin-left: 356px;
+    margin-top: -80px;
+    margin-bottom: 63px;
+    width: 20px;
+    height: 2px;
+    background-color:#464237;
+}
+
+#fundo_form {
+    margin: 0 auto;
+    width: 360px;
+    height: 620px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+
+}
+
+#label_nome {
+    margin-left: 15px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1b1a16;
+    font-weight: 600;
+}
+
+#input_nome {
+    width: 324px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 0 1px 1px #FFBB12;
+    margin-left: 15px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    outline: none;
+    padding-left: 5px;
+    stroke-opacity: 0.2;
+    
+}
+
+#label_email {
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1b1a16;
+    font-weight: 600;
+}
+
+#input_email {
+    width: 322px;
+    height: 40px;
+    background-color: #f9f8f6;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 0 1px 1px;
+    margin-left: 15px;
+    margin-top: 7.5px;
+    margin-bottom: 15px;
+    outline: none;
+    padding-left: 5px;
+    stroke-opacity: 0.2;
+}
+
+#label_senha {
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1b1a16;
+    font-weight: 600;
+}
+
+#input_senha {
+    width: 322px;
+    height: 40px;
+    background-color: #f9f8f6;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 0 1px 1px;
+    margin-left: 15px;
+    margin-top: 7.5px;
+    outline: none;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    stroke-opacity: 0.2;
+    
+}
+
+/* #esconder {
+    width: 18px;
+    height: 18px;
+    opacity: 0.3;  
+    margin-top: -30px;
+    margin-bottom: 48px;
+    margin-left: 316px;
+} */
+
+#label_cep {
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1b1a16;
+    font-weight: 600;
+   
+    
+    
+}
+
+#input_cep {
+    width: 140px;
+    height: 40px;
+    background-color: #f9f8f6;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 0 1px 1px;
+    margin-left: 15px;
+    margin-top: 7.5px;
+    outline: none;
+    padding-left: 5px;
+    stroke-opacity: 0.2;
+}
+
+#label_number {
+    margin-left: 147px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1b1a16;
+    font-weight: 600;
+    
+   
+    
+    
+}
+
+#input_number {
+    width: 140px;
+    height: 40px;
+    background-color: #f9f8f6;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 0 1px 1px;
+    margin-left: 30px;
+    margin-top: 7.5px;
+    outline: none;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    stroke-opacity: 0.2;
+}
+
+#label_rua {
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1b1a16;
+    font-weight: 600;
+}
+
+#input_rua {
+    width: 322px;
+    height: 40px;
+    background-color: #f9f8f6;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 0 1px 1px;
+    margin-left: 15px;
+    margin-top: 7.5px;
+    margin-bottom: 15px;
+    outline: none;
+    padding-left: 5px;
+    stroke-opacity: 0.2;
+}
+
+#label_cidade {
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1b1a16;
+    font-weight: 600;
+}
+
+#select_cidade {
+    width: 330px;
+    height: 43px;
+    background-color: #f9f8f6;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 0 1px 1px;
+    margin-left: 15px;
+    margin-top: 7.5px;
+    margin-bottom: 15px;
+    outline: none;
+    padding-left: 5px;
+    stroke-opacity: 0.2;   
+}
+
+#label_termos {
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1b1a16;
+    font-weight: 600;
+    
+}
+
+#check_termos{
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    height: 21px;
+    width: 21px; 
+    outline: none;
+    stroke-opacity: 0.2; 
+    margin-bottom: 20px;
+}
+
+#btn_enviar{
+    width: 177px;
+    height: 49px;
+    margin-left: 15px;
+    background-color: #FFBB12;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #764701 ;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
